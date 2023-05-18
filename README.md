@@ -29,10 +29,10 @@ npm i -D @codepiercer/sveltewind
   }
   ```
 
-## Installation (Option 2) - use the pre configured template
+## Installation (Option 2) - use the pre configured sveltekit template
 
 ```bash
-npx degit git@github.com:codepiercer/sveltewind-template.git newProject
+npx degit git@github.com:codepiercer/sveltewind-template.git myapp
 ```
 
 ## Usage

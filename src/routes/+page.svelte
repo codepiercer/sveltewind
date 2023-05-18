@@ -45,7 +45,7 @@
 
     <div class="m-2 flex max-w-2xl flex-col gap-4 rounded-lg bg-gray-100 p-4 text-left text-xs text-gray-900">
       <code>
-        npm create svelte@latest newProject <br />
+        npm create svelte@latest myapp <br />
         npm i -D @codepiercer/sveltewind
       </code>
       <code>
@@ -69,7 +69,7 @@
     <div>
       <p class="text-sm text-blue-900">or simply use the pre configured template</p>
       <div class="m-2 flex max-w-2xl flex-col gap-4 rounded-lg bg-gray-100 p-4 text-left text-xs text-gray-900">
-        <code>npx degit git@github.com:codepiercer/sveltewind-template.git newProject</code>
+        <code>npx degit git@github.com:codepiercer/sveltewind-template.git myapp</code>
       </div>
     </div>
 
