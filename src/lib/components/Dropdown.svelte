@@ -60,7 +60,7 @@
 </script>
 
 <div
-  class="relative"
+  class="relative inline-flex"
   use:clickOutside
   on:clickOutside={onClose}
 >
