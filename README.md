@@ -40,7 +40,7 @@ npx degit git@github.com:codepiercer/sveltewind-template.git newProject
 ```js
 // Example.svelte
 <script>
-  import { Button } from '@codepiercer/sveltewind'
+  import { Button } from '@codepiercer/sveltewind/components'
 </script>
 
 <Button.Primary class="text-green-500">Click Me</Button.Primary>
