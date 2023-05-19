@@ -1,6 +1,6 @@
 /** Dispatch event on click outside of node */
 export default function trapUpDownFocus(node, selector = ``) {
-  const handleKeyup = (event) => {
+  const handleKeydown = (event) => {
     // we're only interested in handling up & down arrow keys
     if (event.key !== `ArrowUp` && event.key !== `ArrowDown`) return
 
@@ -52,11 +52,11 @@ export default function trapUpDownFocus(node, selector = ``) {
     }
   }
 
-  document.addEventListener(`keyup`, handleKeyup, true)
+  document.addEventListener(`keydown`, handleKeydown, true)
 
   return {
     destroy() {
-      document.removeEventListener(`keyup`, handleKeyup, true)
+      document.removeEventListener(`keydown`, handleKeydown, true)
     }
   }
 }

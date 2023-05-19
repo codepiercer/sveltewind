@@ -1,7 +1,7 @@
 {
   "name": "@codepiercer/sveltewind",
   "license": "MIT",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "scripts": {
     "dev": "vite dev --host",
     "build": "npm run lint && vite build && svelte-kit sync && svelte-package",
@@ -33,7 +33,7 @@
     "@sveltejs/adapter-auto": "2.1.0",
     "@sveltejs/package": "2.0.2",
     "publint": "0.1.11",
-    "tslib": "2.5.1",
+    "tslib": "2.5.2",
     "typescript": "5.0.4"
   },
   "repository": "git@github.com:codepiercer/sveltewind.git",

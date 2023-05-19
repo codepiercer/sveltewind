@@ -7,7 +7,6 @@
   import { clickOutside, trapUpDownFocus } from "../utils"
 
   let isOpen = false
-
   const onOpen = () => {
     isOpen = true
   }
