@@ -11,3 +11,12 @@ services:
       - PORT=3009
     ports:
       - 3009:3009
+
+  publish:
+    image: node:18
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: bash -c "npm run pub"
+    env_file:
+      - .env
